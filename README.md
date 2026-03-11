@@ -35,7 +35,7 @@ The Makefile provides the following targets:
 The CI pipeline executes the following stages:
 
 ```
-push (main)
+push (main/staging)
   ↓
 build (Maven)
   ↓
