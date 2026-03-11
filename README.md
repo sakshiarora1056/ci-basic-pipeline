@@ -120,11 +120,11 @@ Manually stops the pipeline execution with exit code 1.
 
 ## Docker
 
-The Docker image is based on OpenJDK 17 slim and runs the packaged JAR file.
+The Docker image is based on Eclipse Temurin 17 JDK (Alpine) and runs the packaged JAR file.
 
 Build and run manually:
 ```bash
-docker build -t demo-app:latest docker/
+make docker
 docker run demo-app:latest
 ```
 

@@ -4,7 +4,7 @@ build:
 	mvn clean package
 
 docker:
-	docker build -t demo-app:latest docker/
+	docker build -f docker/Dockerfile -t demo-app:latest .
 
 test:
 	mvn test
